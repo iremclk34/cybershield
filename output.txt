@@ -1,0 +1,9 @@
+🔍 - Sistem Bilgileri -
+İşletim Sistemi: Windows
+Sürüm: 10.0.26100
+Makine: AMD64
+İşlemci: Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+Bilgisayar Adı: DESKTOP-OSI6HUH
+IP Adresi: 192.168.0.6
+Kullanıcı Adı: iremc
+Giriş Zamanı: 2025-09-17 21:08:46

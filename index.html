@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CyberShield</title>
+</head>
+<body>
+    <h2>CyberShield Tarama Arayüzü</h2>
+    <form action="/tara" method="post">
+        <label>Başlangıç IP (örn: 1):</label>
+        <input name="baslangic" type="number" required><br><br>
+        <label>Bitiş IP (örn: 10):</label>
+        <input name="bitis" type="number" required><br><br>
+        <button type="submit">Taramayı Başlat</button>
+    </form>
+
+    {% if output %}
+    <h3>Tarama Sonuçları:</h3>
+    <pre>{{ output }}</pre>
+    {% endif %}
+</body>
+</html>
